@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-up" width="50" height="30" tilewidth="32" tileheight="32" nextobjectid="32">
+ <tileset firstgid="1" source="data/Entities.tsx"/>
+ <tileset firstgid="257" source="data/MainTiles.tsx"/>
+ <layer name="Tile Layer 1" width="50" height="30">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC9WWSwrCMBBAk4WfCwhewM9aUFy6UbyA3sSD9YamYGAYOjFJJ5mZwKOLQnmPTNo6p2udvXMXxNXT9yLalvWORXBZEo4WOqL/JuGouSPHX3NHib/Gjhp/TR1z/DV0cPhLdnD6S3S08O/Z0dK/R0cPf9xxD9cHU0dP/613t1VgHYAOU/tiyT+uuC8QS/6D0fnBLvsELfxHL7zvFDn+OS7c/imvlrNg3Z9jJv7NhZQ/hxP0wmfx+JvjV7i+AVzvEm5/yit+l/FK/W9QnBDUszn9IeOeDICSDuwOec7oqJ1rPG813hi4PplNrb6RJd6YAwDO2A7dg0g7T0GdQ46z15PSDklXrg5p1xRfQdtmTnAXAAA=
+  </data>
+ </layer>
+ <objectgroup name="entities">
+  <object id="16" gid="1" x="32" y="832"/>
+  <object id="17" gid="17" x="1024" y="768">
+   <properties>
+    <property name="channel" value="1"/>
+   </properties>
+  </object>
+  <object id="18" gid="13" x="1440" y="512">
+   <properties>
+    <property name="channel" value="1"/>
+   </properties>
+  </object>
+  <object id="19" gid="3" x="960" y="768"/>
+  <object id="20" gid="48" x="1344" y="64">
+   <properties>
+    <property name="entity" value="EntityBolder"/>
+    <property name="spawnDelay" value="180"/>
+   </properties>
+  </object>
+  <object id="28" gid="3" x="1312" y="512"/>
+  <object id="30" gid="3" x="704" y="672"/>
+ </objectgroup>
+ <objectgroup name="physics">
+  <object id="1" x="0" y="832">
+   <polygon points="0,0 0,128 128,128 128,0"/>
+  </object>
+  <object id="2" x="96" y="800">
+   <polygon points="0,0 0,32 32,32 32,0"/>
+  </object>
+  <object id="3" x="192" y="832">
+   <polygon points="0,0 0,128 1408,128 1408,0"/>
+  </object>
+  <object id="5" x="416" y="832">
+   <polygon points="0,0 480,0 480,-128 479,-153 467,-158 320,-160"/>
+  </object>
+  <object id="6" x="896" y="736">
+   <polygon points="0,0 0,32 32,32 32,0"/>
+  </object>
+  <object id="7" x="896" y="768">
+   <polygon points="0,0 0,64 704,64 704,0"/>
+  </object>
+  <object id="8" x="1056" y="672">
+   <polygon points="0,0 0,96 544,96 544,-160 320,-160"/>
+  </object>
+  <object id="9" x="928" y="672">
+   <polygon points="0,0 0,32 128,32 128,0"/>
+  </object>
+  <object id="10" x="0" y="736">
+   <polygon points="0,0 0,64 32,64 32,0"/>
+  </object>
+  <object id="12" x="704" y="288">
+   <polygon points="0,0 0,288 320,288 640,128 640,-224 448,-224"/>
+  </object>
+  <object id="13" x="1152" y="0">
+   <polygon points="0,0 0,64 192,64 192,0"/>
+  </object>
+  <object id="14" x="1376" y="0">
+   <polygon points="0,0 0,416 224,416 224,0"/>
+  </object>
+  <object id="15" x="1440" y="416">
+   <polygon points="0,0 0,64 160,64 160,0"/>
+  </object>
+  <object id="22" x="0" y="672">
+   <polygon points="0,0 0,64 32,64 160,0"/>
+  </object>
+  <object id="23" x="0" y="640">
+   <polygon points="0,0 0,32 512,32 576,0"/>
+  </object>
+  <object id="24" x="0" y="640">
+   <polygon points="0,0 576,0 704,-64 704,-352"/>
+  </object>
+ </objectgroup>
+ <objectgroup name="zones">
+  <object id="25" type="Delete" x="128" y="928">
+   <polygon points="0,0 0,32 64,32 64,0"/>
+  </object>
+  <object id="26" type="Damage" x="128" y="864">
+   <properties>
+    <property name="damageDelay" value="1"/>
+   </properties>
+   <polygon points="0,0 0,64 64,64 64,0"/>
+  </object>
+  <object id="27" type="NextLevel" x="1568" y="480">
+   <properties>
+    <property name="level" value="Level 1"/>
+   </properties>
+   <polygon points="0,0 0,32 32,32 32,0"/>
+  </object>
+ </objectgroup>
+</map>

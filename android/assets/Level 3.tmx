@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-up" width="50" height="30" tilewidth="32" tileheight="32" nextobjectid="105">
+ <tileset firstgid="1" name="MainTiles" tilewidth="32" tileheight="32">
+  <image source="textures/tiles.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="257" source="data/Entities.tsx"/>
+ <layer name="Tile Layer 1" width="50" height="30">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2W20rDQBCGxyN4ABV8gLZ6Y7HxgFIUbxW0voBHfAFv9V7voteeLkX6CPoI9rGcJbNkMmSTbRp2EfaHj4TNzvb/dzZtAYKCgoKCgoL+q6aQad8matAu0vVtogYdIke+TYygT98GatIVco1EhGu9Ir8V6t7oeivG95D9kRxVUweS/VtAFg1zBpDNqvb+xjDXR44++1xFA/LzFPmW8pGjA2kGTgOK+1Mk1zkGkO1FWZ5vSM+Wqv2hsS/kBZLe8v66kqkXpjwbkJ4t/U5FNB4xdI0rlfWC00NOh6x1JdscB6LOto+uVDWHbZ0r2Z4pnuMMkjN2Qsj7HrjPcQz2WdZZXUzXD0LKx++HzsL3U+6z5hy5oCu/vxRr6hzy+2zTws8YMo6ssrEm0kImkMmC2juL9W21BsV9NWXR/peQbWSHPduiMcUyZPPw/9j3hrVjw3ieni0y5GWR/jUqxwPyKHLwPCuQ7Zv28Y7MILNImzGHzLN5Mc1V78YT+W9bZtC0COmfo+eYnst53PMwXsr4A/lYsL9wFwAA
+  </data>
+ </layer>
+ <objectgroup name="entities">
+  <object id="39" gid="257" x="32" y="832"/>
+  <object id="43" gid="273" x="768" y="896">
+   <properties>
+    <property name="channel" value="2"/>
+   </properties>
+  </object>
+  <object id="44" gid="273" x="224" y="928">
+   <properties>
+    <property name="channel" value="1"/>
+   </properties>
+  </object>
+  <object id="45" gid="258" x="128" y="832"/>
+  <object id="46" gid="258" x="608" y="832"/>
+  <object id="48" gid="259" x="928" y="480"/>
+  <object id="50" gid="265" x="448" y="704">
+   <properties>
+    <property name="inputA" value="1"/>
+    <property name="inputB" value="2"/>
+    <property name="output" value="3"/>
+   </properties>
+  </object>
+  <object id="61" gid="259" x="1216" y="928"/>
+  <object id="71" gid="269" x="896" y="928">
+   <properties>
+    <property name="channel" value="3"/>
+   </properties>
+  </object>
+  <object id="74" gid="258" x="608" y="800"/>
+  <object id="81" gid="269" x="1536" y="416">
+   <properties>
+    <property name="channel" value="4"/>
+   </properties>
+  </object>
+  <object id="82" gid="273" x="1504" y="608">
+   <properties>
+    <property name="channel" value="4"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="physics">
+  <object id="3" x="32" y="960">
+   <polygon points="-32,0 864,0 864,-32 -32,-32"/>
+  </object>
+  <object id="8" x="288" y="928">
+   <polygon points="0,0 224,0 224,-96 192,-96"/>
+  </object>
+  <object id="15" x="896" y="928">
+   <polygon points="0,0 0,32 704,32 704,0"/>
+  </object>
+  <object id="16" x="992" y="928">
+   <polygon points="0,0 224,0 160,-32 64,-32"/>
+  </object>
+  <object id="17" x="1408" y="896">
+   <polygon points="0,0 0,32 128,32 128,0"/>
+  </object>
+  <object id="18" x="1472" y="864">
+   <polygon points="0,0 0,32 64,32 64,0"/>
+  </object>
+  <object id="19" x="1504" y="832">
+   <polygon points="0,0 0,32 32,32 32,0"/>
+  </object>
+  <object id="20" x="1536" y="768">
+   <polygon points="0,-320 0,160 64,160 64,-320"/>
+  </object>
+  <object id="24" x="1184" y="768">
+   <polygon points="0,0 0,32 32,32 32,0"/>
+  </object>
+  <object id="27" x="1280" y="672">
+   <polygon points="0,0 0,64 32,64 32,0"/>
+  </object>
+  <object id="40" x="896" y="832">
+   <polygon points="0,0 0,64 32,64 32,0"/>
+  </object>
+  <object id="42" x="736" y="896">
+   <polygon points="32,0 32,32 96,32 96,0"/>
+  </object>
+  <object id="52" x="864" y="800">
+   <polygon points="0,0 9,26 32,32 544,32 565,21 576,0"/>
+  </object>
+  <object id="58" x="832" y="608">
+   <polygon points="0,0 0,160 9,189 32,192 352,192 352,0"/>
+  </object>
+  <object id="64" x="1184" y="608">
+   <polygon points="0,0 0,32 64,32 84,24 96,0"/>
+  </object>
+  <object id="65" x="1184" y="640">
+   <polygon points="0,0 0,32 32,32 58,20 64,0"/>
+  </object>
+  <object id="70" x="1248" y="736">
+   <polygon points="0,0 2,22 32,32 64,32 64,0"/>
+  </object>
+  <object id="72" x="576" y="832">
+   <polygon points="0,0 0,96 192,96 192,64 64,0"/>
+  </object>
+  <object id="90" x="0" y="832">
+   <polygon points="0,0 0,96 160,96 160,0"/>
+  </object>
+  <object id="91" x="160" y="864">
+   <polygon points="0,0 0,64 32,64 32,0"/>
+  </object>
+  <object id="92" x="192" y="896">
+   <polygon points="0,0 0,32 32,32 32,0"/>
+  </object>
+  <object id="94" x="896" y="480">
+   <polygon points="0,0 0,128 320,128 64,0"/>
+  </object>
+  <object id="95" x="864" y="544">
+   <polygon points="0,0 0,64 32,64 32,0"/>
+  </object>
+  <object id="96" x="1184" y="512">
+   <polygon points="0,0 3,22 32,32 57,20 64,0"/>
+  </object>
+  <object id="97" x="1312" y="480">
+   <polygon points="0,0 4,20 32,32 56,21 64,0"/>
+  </object>
+  <object id="98" x="1408" y="448">
+   <polygon points="0,0 0,32 32,32 32,0"/>
+  </object>
+  <object id="99" x="1472" y="416">
+   <polygon points="0,0 2,22 32,32 128,32 128,0"/>
+  </object>
+  <object id="101" x="1536" y="320">
+   <polygon points="0,0 0,64 64,64 64,-32"/>
+  </object>
+  <object id="103" x="1312" y="768">
+   <polygon points="0,0 224,0 224,-160 32,-160 10,-159 1,-155"/>
+  </object>
+ </objectgroup>
+ <objectgroup name="zones">
+  <object id="66" x="512" y="928" width="32"/>
+  <object id="75" x="512" y="928" width="32"/>
+  <object id="79" type="Damage" x="512" y="928">
+   <properties>
+    <property name="damageDelay" value="1"/>
+   </properties>
+   <polygon points="0,0 64,0 62,-18 0,-16"/>
+  </object>
+  <object id="85" type="NextLevel" x="1568" y="384">
+   <properties>
+    <property name="damageDelay" value="10"/>
+    <property name="level" value="Level 4"/>
+   </properties>
+   <polygon points="16,0 16,34 32,32 32,0"/>
+  </object>
+ </objectgroup>
+</map>

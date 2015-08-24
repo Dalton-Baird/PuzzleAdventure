@@ -1,0 +1,6 @@
+[
+  { "name" : "stone", "density" : 10.0, "restitution" : 0.0, "friction" : 2.0 },
+  { "name" : "dirt", "density" : 1.0, "restitution" : 0.0, "friction" : 1.25 },
+  { "name" : "grass", "density" : 1.0, "restitution" : 0.0, "friction" : 1.5 },
+  { "name" : "ice", "density" : 2.0, "restitution" : 0.0, "friction" : 0.0 }
+]

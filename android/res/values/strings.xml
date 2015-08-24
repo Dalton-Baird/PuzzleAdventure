@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Puzzle Adventure</string>
+    <string name="title_activity_main">Main Activity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="game_title">Puzzle Adventure</string>
+    <string name="play_button">Play Game</string>
+    <string name="settings_button">Settings</string>
+    <string name="credits_button">Credits</string>
+    <string name="title_activity_credits">Credits</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_activity_info">Information</string>
+    <string name="info_button">Info</string>
+    <string name="credit_text">Created by:
+        \nDalton Baird
+        \nFor CS 310 - Mobile Application Development
+        \nat Eastern Oregon University
+        \n\nStuff used:
+        \nAndroid SDK
+        \nAndroid Studio
+        \nLibGDX Game Library
+        \nMost sprites are from Game Maker, but a few were created by me</string>
+    <string name="info_text">Puzzle Adventure
+        \nBy Dalton Baird
+        \n\nNavigate through a series of levels, solving puzzles and avoiding traps along the way.
+        Can you complete them all?
+        \n\nControls
+        \nUse the slider to move, and the jump button to jump.  The slider will instantly move to wherever you touched it, allowing for quick input.
+        Hold down the quit button for a whole second to quit.</string>
+    <string name="title_setting_list">Settings</string>
+    <string name="title_setting_detail">Details</string>
+    <string name="settings_game">Game Settings</string>
+    <string name="settings_audio">Audio Settings</string>
+    <string name="settings_dev">Development Settings</string>
+    <string name="settings_dev_box2d_debug_graphics">Box2D Debug Graphics</string>
+    <string name="settings_dev_debug_overlay">Debug Overlay</string>
+    <string name="settings_dev_desc">Development settings for displaying useful information about the game while making levels.  Do not use unless you know what you\'re doing.</string>
+    <string name="title_activity_select_level">Select a Level</string>
+    <string name="settings_audio_desc">Adjust the game\'s audio.</string>
+    <string name="settings_audio_sound_effects">Sound Effects</string>
+    <string name="settings_audio_music">Music</string>
+    <string name="settings_game_desc">Adjust various game settings that alter gameplay.</string>
+    <string name="settings_game_reset_data">Reset Progress</string>
+    <string name="select_level_desc">Play levels to unlock more!</string>
+    <string name="confirm_data_reset">Are you sure you want to reset your progress?</string>
+    <string name="confirm_data_reset_title">Reset Progress?</string>
+
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+</resources>
